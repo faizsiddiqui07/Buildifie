@@ -11,11 +11,11 @@ import BusinessModel from "./pages/BusinessModel";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import ScrollToTop from "./pages/custom-components/ScrollToTop";
-import Preloader from "./pages/custom-components/PreLoader";
 import ProjectPage from "./pages/ProjectPage";
 import PersonaHills from "./pages/project-pages/PersonaHills";
 import NotFound from "./pages/NotFound";
 import { HelmetProvider } from "react-helmet-async";
+import Preloader from "./pages/custom-components/Preloader";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -28,7 +28,7 @@ const App = () => {
 
   useEffect(() => {
     AOS.init({
-      duration: 1500,
+      duration: 1500, 
     });
   });
 
