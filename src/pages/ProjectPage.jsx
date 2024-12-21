@@ -1,5 +1,5 @@
 import React from "react";
-import projectBannerImage from "../assets/images/projectImage.WEBP";
+import projectBannerImage from "../assets/images/projectImage.webp";
 import { Button } from "@/components/ui/button";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
