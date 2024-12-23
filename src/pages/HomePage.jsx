@@ -143,7 +143,7 @@ const HomePage = () => {
                 BUILDIFIE
               </h1>
               <p className="text-[#426e2f] text-xl mb-6 ">
-                Redefining Real Estate with Expertise and Integrity
+                Redefining Real Estate with Expertise and Integritie
               </p>
               <p className="leading-relaxed mb-4 text-base md:text-lg">
                 At <span className="font-bold">Buildifie</span>, we are more
